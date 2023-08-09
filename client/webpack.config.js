@@ -22,15 +22,15 @@ module.exports = () => {
         template: './index.html',
         title: 'Webpack Plugin'
       }),
-      new MiniCssExtractPlugin(),
+
       new InjectManifest({
         swSrc: './src/sw.js',
         swDest: 'service-worker.js'
       }),
       new WebpackPwaManifest({
-        name: 'My Progressive Web App',
-        short_name: 'MyPWA',
-        description: 'Progressive web app',
+        name: 'Just Another Text Editor',
+        short_name: 'J.A.T.E',
+        description: 'This application installs "J.A.T.E"',
         background_color: '#ffffff',
         crossorigin:'', 
         icons: [
@@ -46,7 +46,7 @@ module.exports = () => {
       rules: [
         {
           test: /\.css$/i,
-          use: [MiniCssExtractPlugin.loader, 'css-loader'],
+          use: ['style-loader', 'css-loader'],
         },
         {
           test:/\.m?js$/,
