@@ -35,7 +35,7 @@ module.exports = () => {
         crossorigin:'', 
         icons: [
           {
-          src: path.resolve('src/images/logo.pmg'),
+          src: path.resolve('./src/images/logo.png'),
           sizes: '1024x1024',
           },
         ]
