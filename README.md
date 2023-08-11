@@ -19,6 +19,8 @@
 
   ## Usage
   A user may visit the website and type in the text editor. The user can also download the text editor onto their device. After this has been completed the user can type in the editor on the webpage and then open the application with the same info to continue in the app.
+  https://ab-jate-text-editor-6545456f61c2.herokuapp.com/
+ ![Just Another Text editor screenshot](./client/src/images/Capture.JPG)
 
   ## Contributing
  Ashley Braxton
